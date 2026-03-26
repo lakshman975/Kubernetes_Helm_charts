@@ -1,0 +1,20 @@
+Install and Uninstall Apps...
+helm install <name> <chart location>  # Install the chart with a name
+helm install nginx .
+ helm uninstall <name>
+
+
+Perform App Upgrade and Rollback
+helm upgrade <name> <chart location>  # Upgrade a release
+helm upgrade nginx .
+helm rollback <release> <revision>  # Roll back a release to a specific revision
+
+
+List, Add, Remove, and Update Repositories
+helm repo add <URL>  #To add url to repo
+helm list     #To list the helms 
+
+
+Helm Release monitoring
+
+Download Release Information
